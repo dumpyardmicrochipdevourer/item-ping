@@ -2,3 +2,10 @@ name: ItemPing
 version: 1.0
 main: org.xowa.itemping.ItemPing
 api-version: '1.21'
+
+commands:
+  pingcolor: # /pingcolor
+    description: Изменяет цвет ping'а предметов
+    permission: itemping.command.color
+    usage: /<command> [цвет/random]
+    aliases: [pcolor, itemcolor] # /pcolor
